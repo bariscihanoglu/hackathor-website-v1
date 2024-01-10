@@ -1,0 +1,53 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2vw;
+    scroll-snap-align: start;
+    padding: 0 2vw;
+}
+
+.about .textbox {
+    background-color: hsl(225, 66%, 28%);
+    border-radius: 1.8rem;
+    margin: 1vw 0;
+    box-shadow: rgba(65, 21, 240, 0.4) 5px 5px;
+    padding: 1vw 0;
+}
+
+.about .textbox h2 {
+    color:white;
+    margin: 1px 0 1px 0;
+    padding: 1vw 4vw;
+    font-size: 36px;
+    text-align: center;
+}
+
+.about .textbox p {
+    padding: 1vw 3vw;
+    color:rgb(217, 217, 217);
+    font-size: 28px;
+}
+
+.about .textbox ul {
+    padding: 1vw 6vw;
+    color:rgb(217, 217, 217);
+    font-size: 28px;
+}
+
+@media screen and (max-width: 768px) {
+    .page2 .textdiv p{
+        margin: 10px;
+        font-size:18px;
+    }
+    .page2 .textdiv h4{
+        font-size:20px;
+    }
+    .page2 .textdiv h2{
+        font-size: 24px;
+    }
+
+    .page2 .textdiv{
+        margin: 10px auto;
+        border-radius: 3rem;
+    }
+}

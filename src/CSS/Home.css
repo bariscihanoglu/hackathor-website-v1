@@ -1,0 +1,47 @@
+.home .home-heading {
+  display: flex;
+  height: 93vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hackathor Başlıyor! */
+.home .home-heading h1 {
+  font-size: 72px;
+  padding-bottom: 7vh;
+  color: white;
+  text-align: center;
+}
+
+/* Unleash your code! */
+.home .home-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4vw 2vw;
+  scroll-snap-align: start;
+}
+
+.home h2 {
+  text-align: left;
+  color: white;
+  font-size: 48px;
+}
+
+.home .home-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 4.2vw;
+  gap: 1vw;
+}
+
+.home .home-paragraph {
+  width: 50%;
+}
+
+.home .home-content p {
+  font-size: 36px;
+  color: white;
+  text-align: left;
+}

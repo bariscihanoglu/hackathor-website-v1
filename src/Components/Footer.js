@@ -8,10 +8,9 @@ function Footer() {
   return (
     <div className="footer">
       <hr />
-      <div class="content">
-      <div>
-        <img src={yesLogo}></img>
-        
+      <div className="content">
+        <div className="content-image">
+          <img src={yesLogo}></img>
         </div>
         <div class="social-media" id="footer">
           <h4>Social</h4>
@@ -40,9 +39,8 @@ function Footer() {
           <h4 class="mail">Email</h4>
           <p><a href="#">bilkentyes@gmail.com</a></p>
         </div>
-        
       </div>
-      © 2023 Bilkent YES
+      <p>© 2023 Bilkent YES</p>
     </div>
   )
 }

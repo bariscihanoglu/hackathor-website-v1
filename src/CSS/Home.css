@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 4vw 2vw;
+  padding: 4vh 2vw;
   scroll-snap-align: start;
 }
 
@@ -44,4 +44,27 @@
   font-size: 36px;
   color: white;
   text-align: left;
+}
+
+@media (max-width: 650px) {
+
+  .home .home-content {
+    display: block;
+  }
+
+  .home .home-paragraph {
+    width: 100%;
+  }
+
+  .home h2 {
+    text-align: left;
+    color: white;
+    font-size: 36px;
+  }
+
+  .home .home-content p {
+    font-size: 28px;
+    color: white;
+    text-align: left;
+  }
 }

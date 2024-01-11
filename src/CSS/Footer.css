@@ -67,6 +67,21 @@
   }
 
   .footer {
-    position: unset;
+    position: relative;
+  }
+
+  .footer .content h4 {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+  }
+
+  .footer .content p {
+    margin-bottom: 0.3em;
+  }
+
+  .footer img {
+    position: absolute;
+    right: 1vw;
+    bottom: 1vw;
   }
 }

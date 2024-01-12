@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/hackathor-website-v1/static/css/main.05c7a2f5.css",
+    "main.css": "/hackathor-website-v1/static/css/main.6049fc09.css",
     "main.js": "/hackathor-website-v1/static/js/main.24303628.js",
     "static/media/baris.jpeg": "/hackathor-website-v1/static/media/baris.528c8cf21188cc1841ee.jpeg",
     "static/media/hackathor.png": "/hackathor-website-v1/static/media/hackathor.82fe21d2a989668b96d8.png",
     "static/media/yes.png": "/hackathor-website-v1/static/media/yes.987a9921e2c4552b0854.png",
     "index.html": "/hackathor-website-v1/index.html",
-    "main.05c7a2f5.css.map": "/hackathor-website-v1/static/css/main.05c7a2f5.css.map",
+    "main.6049fc09.css.map": "/hackathor-website-v1/static/css/main.6049fc09.css.map",
     "main.24303628.js.map": "/hackathor-website-v1/static/js/main.24303628.js.map"
   },
   "entrypoints": [
-    "static/css/main.05c7a2f5.css",
+    "static/css/main.6049fc09.css",
     "static/js/main.24303628.js"
   ]
 }

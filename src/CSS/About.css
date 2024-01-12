@@ -16,7 +16,7 @@
 
 .about .textbox h2 {
     color:white;
-    margin: 1px 0 1px 0;
+    margin: 1px 0;
     padding: 1vh 4vw;
     font-size: 36px;
     text-align: center;
@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 768px) {
     .page2 .textdiv p{
-        margin: 10px;
+        margin: 10px 0;
         font-size:18px;
     }
     .page2 .textdiv h4{
@@ -47,7 +47,7 @@
     }
 
     .page2 .textdiv{
-        margin: 10px auto;
+        margin: 10px 0;
         border-radius: 3rem;
     }
 }

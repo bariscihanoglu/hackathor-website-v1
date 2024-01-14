@@ -11,6 +11,7 @@
   padding-bottom: 7vh;
   color: white;
   text-align: center;
+  user-select: none;
 }
 
 /* Unleash your code! */

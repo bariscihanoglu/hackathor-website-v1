@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.navBar * {
+  user-select: none;
+}
+
 .navBar ul {
   list-style: none;
 }
@@ -30,7 +34,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 1vh;
+  padding: 10px 20px;
   height: 7vh;
   transition: height 0.5s ease;
 }

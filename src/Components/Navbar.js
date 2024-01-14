@@ -13,15 +13,11 @@ function Navbar() {
         setTimeout(() => {
           if(!document.getElementById("mobile-list").classList.contains("is-open"))
             document.getElementById("mobile-list").classList.add("is-open");
+          else
+            document.getElementById("mobile-list").classList.remove("is-open");
         }, 500)
       
       setIsOpen((open) => !open)
-    }
-
-    const ulClick = () => {
-      setTimeout(() => {
-        document.getElementById("mobile-list").classList.add("is-open");
-      }, 1000)
     }
 
     return (
